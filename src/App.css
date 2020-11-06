@@ -1,0 +1,176 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+#container{
+  background-color: #1e1e1e;
+  width: 100%;
+  height: 100vh;
+}
+
+#fileContainer{
+  background-color: #252526;
+  width: 15%;
+  height: 100vh;
+}
+
+#fileShow{
+  background-color: #252526;
+  width: 85%;
+  height: 5vh;
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+
+#buttonAdd {
+  width: 15%;
+  height: 5%;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #bbbbbb;
+  outline: none;
+  transition: 1s ease-in-out;
+  color: white;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+#buttonAdd:hover {
+  transition: 1s ease-in-out;
+  background: #4F95DA;
+}
+
+#buttonAdd:hover svg {
+  stroke-dashoffset: -480;
+}
+
+#buttonAdd span {
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+#file{
+  background-color: #1e1e1e;
+  width: 10%;
+  height: 100%;
+  color: white;
+}
+
+#lineCotainer{
+  background-color: #1e1e1e;
+  width: 5%;
+  height: 95vh;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
+
+#line{
+  background-color: rgba(255, 255, 255, 0.178);
+  width: 1%;
+  height: 95vh;
+  position: absolute;
+}
+
+#codeline{
+  background-color: #1e1e1e;
+  width: 90%;
+  height: 95vh;
+  right: 0;
+  position: absolute;
+  text-align: left;
+}
+
+#codeContainer{
+  background-color: #1e1e1e;
+  width: 70%;
+  left: 16%;
+  height: 94vh;
+  bottom: 0 ;
+  position: absolute;
+  text-align: left;
+  color: #ececec;
+}
+
+textarea {
+  width: 110%;
+  height: 99%;
+  color: #ececec;
+  overflow: none;
+  max-height: 99%;
+  background: transparent;
+  resize: none;
+  border: 0 none;
+  outline: none;
+  position: absolute;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1e1e1e; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2a2a2a; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #1e1e1e; 
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
