@@ -11,8 +11,8 @@ $ npm install</pre>
 $ npm start</pre>
 
 ## Building
-To build Visual you need:
-- A clone/release of Visual
+To build BitCode you need:
+- A clone/release of BitCode
 
 For building we use yarn. To use yarn you first need to install it:
 <pre>
