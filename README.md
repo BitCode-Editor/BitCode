@@ -3,9 +3,6 @@
 <br>
 <p align="center">🚀 A modern Code Editor.</p>
 <br>
-
-<h2> Usage</h2>
-
 <p>To use BitCode you need to follow the steps of developing. Developing is intended to be a flexible code editor that can be used in the browser aswell as a applicaton. At this moment BitCode is still in development. To get a preview you can clone this repo and build it yourself. We hope that BitCode will be a great source where you can edit your files and make your own projects</p>
 
 <h2>Developing</h2>
