@@ -6,7 +6,7 @@ Here's how to install the dependencies and run the editor locally:
 <pre>
 $ npm install</pre>
 
-<p>To build the editor, run:</p>
+<p>To run the editor, run:</p>
 <pre>
 $ npm start</pre>
 
