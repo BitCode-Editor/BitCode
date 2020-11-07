@@ -4,9 +4,9 @@
 <h2>Developing</h2>
 Here's how to install the dependencies and run the editor locally:
 <pre>
-$ npm install
-$ ./node_modules/.bin/gulp serve
-To build the editor, run:</pre>
+$ npm install</pre>
+
+<p>To build the editor, run:</p>
 <pre>
 $ npm start</pre>
 
