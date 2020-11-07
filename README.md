@@ -1,5 +1,12 @@
-# BitCode
-🚀 A modern Code Editor
+<p align="center"><img src="https://media4.giphy.com/media/TS38SJorLQlBQIezCJ/giphy.gif" width="220" height="200"> </p>
+<h1 align="center">  BitCode</h1>
+<br>
+<p align="center">🚀 A modern Code Editor.</p>
+<br>
+
+<h2> Usage</h2>
+
+<p>To use BitCode you need to follow the steps of developing. Developing is intended to be a flexible code editor that can be used in the browser aswell as a applicaton. At this moment BitCode is still in development. To get a preview you can clone this repo and build it yourself. We hope that BitCode will be a great source where you can edit your files and make your own projects</p>
 
 <h2>Developing</h2>
 Here's how to install the dependencies and run the editor locally:
