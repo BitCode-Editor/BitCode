@@ -26,6 +26,12 @@ This will compile all scripts and styles and inline them into a single html file
 
 <h2>Supported Languages</h2>
 <p>Not yet finalized</p>
-<li
+<p>Planned:</p>
+ <ul>
+   <li>HTML</li>
+   <li>JavaScript</li>
+   <li>TypeScript</li>
+   <li>JSON</li>
+   <li>PHP</li></ul>
 <h2>Contributing</h2>
 Contributions to the editor welcome. If you've fixed a bug or implemented a cool new feature that you would like to share, please feel free to open a pull request here.
