@@ -4,15 +4,12 @@
 <h2>Developing</h2>
 Here's how to install the dependencies and run the editor locally:
 <pre>
-$ npm install</pre>
+$ npm install
+$ npm install -g yarn</pre>
 
 <p>To run the editor, run:</p>
 <pre>
 $ npm start</pre>
-
-For building we use yarn. To use yarn you first need to install it:
-<pre>
-$ npm install -g yarn</pre>
 
 <p>To build the project, run:</p>
 <pre>
