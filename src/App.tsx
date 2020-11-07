@@ -64,10 +64,6 @@ function saveTextAsFile()
   downloadLink.click();
 }
 
-var button = document.getElementById('save');
-button.addEventListener('click', saveTextAsFile);
-
-
 function loadFileAndSet() {
   var input = document.createElement('input');
   input.type = 'file';
