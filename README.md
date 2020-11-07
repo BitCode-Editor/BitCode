@@ -17,6 +17,16 @@ $ yarn build</pre>
 
 This will compile all scripts and styles and inline them into a single html file in the build/ folder. It will also create a build/ folder, which makes supporting files for the build.
 
+<h2>Supported Languages</h2>
+<p>Not yet finalized</p>
+<p>Planned:</p>
+ <ul>
+   <li>HTML</li>
+   <li>JavaScript</li>
+   <li>TypeScript</li>
+   <li>JSON</li>
+   <li>PHP</li></ul>
+
 <h2> Storyboard</h2>
   <pre>
   - Create project (✔)
@@ -27,14 +37,10 @@ This will compile all scripts and styles and inline them into a single html file
   - Make a application variant
   - Create more storyboard points</pre>
   
-<h2>Supported Languages</h2>
-<p>Not yet finalized</p>
-<p>Planned:</p>
- <ul>
-   <li>HTML</li>
-   <li>JavaScript</li>
-   <li>TypeScript</li>
-   <li>JSON</li>
-   <li>PHP</li></ul>
+<h2> Known problems</h2>
+<pre>
+ -There is only a browser variant
+ -The page is not totally functional yet.</pre>
+  
 <h2>Contributing</h2>
 Contributions to the editor welcome. If you've fixed a bug or implemented a cool new feature that you would like to share, please feel free to open a pull request here.
