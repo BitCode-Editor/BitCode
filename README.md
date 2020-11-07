@@ -1,5 +1,5 @@
-<p align="center"><img src="https://media4.giphy.com/media/TS38SJorLQlBQIezCJ/giphy.gif" width="220" height="200"> </p>
 <h1 align="center">  BitCode</h1>
+<p align="center"><img src="https://media4.giphy.com/media/TS38SJorLQlBQIezCJ/giphy.gif" width="220" height="200"> </p>
 <br>
 <p align="center">🚀 A modern Code Editor.</p>
 <br>
